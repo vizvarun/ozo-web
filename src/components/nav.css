@@ -1,0 +1,126 @@
+.container {
+  max-width: 1920px;
+  min-height: 100vh;
+}
+.navigation {
+  position: sticky;
+}
+
+img {
+  width: 120px;
+  margin-top: 15px;
+  float: left;
+  margin-left: 20px;
+}
+
+.navs {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  margin-top: -40px;
+  font-size: larger;
+}
+
+#menu {
+  margin-top: -1px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+li {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.hidden {
+  display: none;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: larger;
+}
+
+li h2 {
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+  .navs {
+    display: none;
+    margin-top: 0;
+  }
+
+  .hidden {
+    display: block;
+    float: right;
+    margin-right: 40px;
+    margin-top: 4px;
+  }
+
+  img {
+    margin-top: 10x;
+    margin-left: 20px;
+  }
+
+  .buttonlist {
+    display: none;
+  }
+
+}
+
+.cross {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  margin-left: 90%;
+  cursor: pointer;
+}
+
+.buttonlist {
+  background-color: #292f36;
+  color: #f4f4f4;
+  border-radius: 50px;
+  width: 170px;
+  height: 40px;
+  margin: 0 auto;
+  border: none;
+  right: 3.5%;
+  margin-top: 5px;
+}
+
+.signbtn {
+  background-color: #292f36;
+  color: #f4f4f4;
+  border: none;
+  width: 85px;
+  height: 40px;
+  margin-top: -10px;
+}
+
+.signbtn:hover {
+  background-color: #d7d8d9;
+  color: #292f36;
+}
+
+.buttonlist:hover {
+  background-color: #d7d8d9;
+  color: #292f36;
+}
+
+h2:hover {
+  color: #626262;
+}
+
+h4:hover{
+    color: #626262;
+}
+
+.btncontain {
+  margin-top: 20px;
+}

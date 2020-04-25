@@ -1,0 +1,39 @@
+@media only screen and (max-width: 850px) {
+  .tabs {
+    margin-top: 150px;
+  }
+  .ant-tabs-bar {
+    margin-top: 10%;
+  }
+}
+
+.tabs {
+  margin-top: 45px;
+}
+
+.ant-tabs-nav {
+  width: 90%;
+}
+
+.ant-tabs-bar {
+  border: none;
+  margin: 0;
+  position: fixed;
+  width: 80%;
+  top: 12vh;
+  left: 5%;
+  z-index: 3;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+  background-color: #292f36 !important;
+  color: lightgray;
+  text-transform: uppercase;
+  width: 33.33%;
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 3px;
+  height: 5vh !important;
+}
+
